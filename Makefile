@@ -6,7 +6,7 @@ BROWSER = zen-browser
 
 MAIN = main.typ
 
-all: rapport.pdf
+all: main.pdf
 
 %.pdf: $(MAIN) $(CHAPITRES)/* clean
 	$(TYPST) c $< $@
